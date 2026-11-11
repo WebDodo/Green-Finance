@@ -18,13 +18,13 @@
 
 ```
 PARTIE 1 · EXTRA-FINANCIER     PARTIE 2 · FINANCIER        PARTIE 3 · ALLOCATION
-(Doryan)                       (membre 2)                  (membre 3)
+(Doryan)                                       
 1 247 entreprises       ───►   filtres financiers   ───►   score final combiné
 → catégorie                    → score financier           → choix des ~50 lignes
 → score JEVONS (0-100)           (0-100)                   → pondération
                                                                    │
                                                                    ▼
-                                            PARTIE 4 · ANALYSE DU FONDS (tous)
+                                            PARTIE 4 · ANALYSE DU FONDS
 ```
 
 ---
