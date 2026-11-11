@@ -1,10 +1,11 @@
 # Ce qui reste à faire
 
 ## Construction du fonds
-- [ ] **Détecteur d'effet rebond :** produire `detecteur_rebond.csv` (Claude), puis la validation par l'équipe, la calibration du seuil (les cas évidents doivent être ≥ 3) et le remplacement de la liste manuelle.
+- [ ] **Détecteur d'effet rebond (étape 2) :** produire `detecteur_rebond.csv` (Claude), puis la validation par l'équipe, la calibration du seuil (les cas évidents doivent être ≥ 3) et le remplacement de la liste manuelle.
+- [ ] **Tableau « sans / avec l'exclusion rebond »** pour la présentation (Zara 4/4, Toyota, BMW… passent sans elle ; Amadeus et Next ratés par la liste manuelle).
 - [ ] **Mines de charbon :** vérifier Glencore, BHP, Anglo American et South32 dans leurs rapports annuels.
 - [ ] **Filtres financiers :** relire et confirmer les seuils (déjà définis, fichier 05).
-- [ ] **Choix final :** passer de 186 éligibles à environ 50 lignes (méthode secteur × région, score final). *→ confié à un membre du groupe*
+- [ ] **Choix final (étape 6) :** passer de 188 éligibles à environ 50 lignes (méthode secteur × région, score final). *→ confié à un membre du groupe*
 - [ ] **Choix des poids :** méthode de pondération et contraintes (carbone, température, secteurs, régions, 5/10/40). *→ idem*
 - [ ] **Rebalancement :** fréquence (trimestrielle ?), règle de sortie (on sort quand le score baisse), contrôle de la trajectoire de −7 %/an.
 

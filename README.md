@@ -18,14 +18,14 @@
 
 ```
 1 247 entreprises (MSCI World)
-   │  Étape 2 · Exclusions .............................. − 209
+   │  Étape 2 · Exclusions (dont l'effet rebond) ......... − 209
 1 038
-   │  Étape 3 · Test « investissement durable » ........ − 492
-  546
-   │  Étape 4 · Les jurés « limites planétaires » ....... − 273
-  273
-   │  Étape 5 · Filtres financiers ...................... − 87
-  186 entreprises éligibles  →  choix final et pondération (à faire)
+   │  Étape 3 · Test « investissement durable » ........ − 456
+  582
+   │  Étape 4 · Les jurés « limites planétaires » ....... − 304
+  278
+   │  Étape 5 · Filtres financiers ...................... − 90
+  188 entreprises éligibles  →  étape 6 : choix final et pondération (à faire)
 ```
 
 ### Étape 1 — Le concept *(fichier 01)*
@@ -34,7 +34,7 @@
 
 | Limite | Rôle | Mesure |
 |---|---|---|
-| 🌡️ Climat | Contribution | Température implicite, intensité carbone, ODD 13 |
+| 🌡️ Climat | Contribution | Température implicite, intensité carbone, ODD 13 (climat), ODD 7 (énergie propre) |
 | 💧 Eau | Contribution | ODD 6 |
 | ♻️ Ressources | Contribution | ODD 12, part de chiffre d'affaires vert |
 | 🌿 Biodiversité | Garde-fou (ne pas nuire) | ODD 14 et 15 |
@@ -47,13 +47,13 @@
 | Controverses | Environnementales : drapeau rouge et orange. Sociales et de gouvernance : drapeau rouge seulement |
 | Minimum éthique | Tabac, armes controversées |
 | Autres limites | Entreprises fortement nuisibles à la biodiversité, à l'eau ou aux ressources |
-| **Activités du rebond (Jevons)** | Aérien, croisières, automobile (électrique compris), fast fashion → bientôt remplacé par le **détecteur d'effet rebond** (voir plus bas) |
+| **Activités du rebond (Jevons)** | Aérien, croisières, automobile (électrique compris), fast fashion → identifiées par notre **détecteur d'effet rebond** (voir plus bas) |
 | Données manquantes | On n'investit pas dans ce qu'on ne mesure pas |
 
 ### Étape 3 — L'examen d'entrée Article 9 *(fichier 03)*
 
 Chaque entreprise doit cocher **3 cases** (article 2.17 de SFDR) :
-1. **Contribuer** à une limite : trajectoire ≤ 1,5 °C, **ou** ODD 13, 6 ou 12 aligné, **ou** au moins 20 % de chiffre d'affaires vert.
+1. **Contribuer** à une limite : trajectoire ≤ 1,5 °C, **ou** ODD 13, 7, 6 ou 12 aligné, **ou** au moins 20 % de chiffre d'affaires vert.
 2. **Ne pas nuire** : aucun ODD environnemental désaligné et trajectoire ≤ 3 °C.
 3. **Gouvernance minimale** : note de gouvernance MSCI ≥ 3/10.
 
@@ -82,9 +82,9 @@ Chaque entreprise doit cocher **3 cases** (article 2.17 de SFDR) :
 
 Chaque entreprise reçoit aussi un **score financier** pour le classement final : 40 % qualité, 30 % performance ajustée du risque, 30 % valorisation.
 
-## Le détecteur d'effet rebond (IA) 🤖
+## Le détecteur d'effet rebond (IA) 🤖 — utilisé à l'étape 2
 
-Les données ESG mesurent l'**efficacité**, pas le **volume**. Elles ne voient donc pas l'effet rebond. Nous avons construit notre propre détecteur.
+**Pourquoi :** les données ESG mesurent l'**efficacité**, pas le **volume**. Sans exclusion, **10 entreprises du rebond passeraient toutes nos étapes**, dont **Zara avec 4 voix sur 4**, ainsi que Toyota, BMW, Ferrari… Et même une liste faite à la main en oublie : **Amadeus** (réservation de billets d'avion) et **Next** (vêtements) passent aujourd'hui toutes les étapes.
 
 **La grille : 4 questions, 1 point par « oui » :**
 1. Le chiffre d'affaires grandit-il avec le **volume** d'un produit gourmand en ressources ?
