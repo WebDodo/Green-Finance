@@ -4,7 +4,7 @@
 
 > **Faire moins, pas seulement mieux.**
 
-Ce document explique **comment on passe des 1 247 entreprises du MSCI World à la liste des entreprises qui ont le droit d'entrer dans le fonds**. C'est notre **périmètre d'investissement**. Le choix final des lignes et leurs poids viennent après.
+Ce document explique **comment on passe des 1 247 entreprises du MSCI World aux 406 entreprises qui ont le droit d'entrer dans le fonds**. C'est notre **périmètre d'investissement**. Le choix final des lignes et leurs poids viennent après.
 
 ---
 
@@ -25,14 +25,15 @@ Ce document explique **comment on passe des 1 247 entreprises du MSCI World à l
 
 | Limite planétaire | Rôle dans le fonds | Mesure (données MSCI) |
 |---|---|---|
-| 🌡️ Climat | Contribution | Température implicite, intensité carbone, ODD 13 (climat), ODD 7 (énergie propre) |
+| 🌡️ Climat | Contribution | ODD 13 (climat), ODD 7 (énergie propre), température implicite, intensité carbone |
 | 💧 Eau douce | Contribution | ODD 6 |
 | ♻️ Ressources et pollution | Contribution | ODD 12 (consommation responsable), part de chiffre d'affaires vert |
 | 🌿 Biodiversité | Garde-fou (ne pas nuire) | ODD 14 (océans), ODD 15 (vie terrestre) |
 
-### Notre règle d'or
+### Nos deux règles d'or
 
-> **Sur l'environnement, on suit notre thème et on est exigeants. Sur le social et la gouvernance, on applique uniquement le minimum exigé pour un Article 9.**
+> 1. **Sur l'environnement, on suit notre thème et on est exigeants. Sur le social et la gouvernance, on applique uniquement le minimum exigé pour un Article 9.**
+> 2. **On n'investit pas dans ce qu'on ne mesure pas.**
 
 ### Pourquoi l'Article 9.3, aligné avec l'Accord de Paris
 
@@ -45,59 +46,65 @@ L'Article 9 n'impose pas d'être aligné avec Paris. Nous le faisons quand même
 
 ---
 
-## 2. L'entonnoir
+## 2. L'entonnoir en un coup d'œil
 
 ```
-1 247  entreprises du MSCI World
+1 247  entreprises du MSCI World (31/12/2024)
   │
-  │  ÉTAPE A · Exclusions (ce qu'on refuse) ............ − 397
+  │  ÉTAPE A · CE QU'ON REFUSE
+  │  ├─ A1  Énergies fossiles ........................... − 115
+  │  ├─ A2  Financement des énergies fossiles ........... − 183
+  │  │       (banques, assureurs, gestionnaires d'actifs)
+  │  ├─ A3  Effet rebond (Jevons) 🎯 ..................... −  48
+  │  └─ A4  Garde-fous ................................... −  58
+  │          (controverses, éthique, atteintes graves, données manquantes)
   ▼
-  850  entreprises investissables
+  843  entreprises investissables
   │
-  │  ÉTAPE B · Test « investissement durable » ........ − 440
+  │  ÉTAPE B · TEST « INVESTISSEMENT DURABLE » (Article 9)
+  │  ├─ 1. Contribue à une limite planétaire ?
+  │  ├─ 2. Ne nuit pas aux autres ?
+  │  └─ 3. Gouvernance minimale ? ........................ − 437
   ▼
-  410  entreprises éligibles à l'Article 9  =  NOTRE PÉRIMÈTRE
+  406  entreprises éligibles  =  NOTRE PÉRIMÈTRE
 ```
+
+*Les exclusions sont comptées dans l'ordre : une entreprise exclue pour plusieurs motifs n'est comptée qu'une fois, dans la première famille qui l'exclut.*
 
 ---
 
-## 3. Étape A — Les exclusions : ce qu'on refuse
+## 3. Étape A — Ce qu'on refuse
 
-On retire d'emblée ce qui est incompatible avec le fonds, avant même de regarder ce que l'entreprise apporte. Une entreprise peut être exclue pour plusieurs motifs.
+On retire d'emblée ce qui est incompatible avec le fonds, avant même de regarder ce que l'entreprise apporte.
 
-### A1. Les énergies fossiles *(obligatoire en Article 9.3)*
+### A1. Les énergies fossiles — 115 exclues *(obligatoire en Article 9.3)*
 
 | Règle | Comment on l'applique | Exclues |
 |---|---|---|
-| Pétrole et gaz | Tout le secteur GICS Énergie | 52 |
-| Électricité carbonée | Un électricien n'est gardé que s'il fait au moins 50 % de chiffre d'affaires vert, ou si ses émissions directes sont inférieures à 100 tCO2e par M$ de chiffre d'affaires (réseaux, eau) | 51 |
-| **Charbon thermique** (≥ 1 % du chiffre d'affaires, seuil Paris-Aligned) | Croisement avec la **Global Coal Exit List 2026** (urgewald). 32 de nos entreprises y figurent, dont 26 déjà exclues. **Nouvelles exclusions :** Glencore (3,2 % du CA, 98 Mt/an), BHP (3,2 %), CSX (13 %, transport de charbon), Berkshire Hathaway (1,7 %) | 4 |
-| **Mines de charbon** (thermique **et métallurgique**) | Croisement avec le **Global Coal Mine Tracker** (Global Energy Monitor, août 2026), mine par mine. On exclut toute entreprise qui détient **au moins 10 % d'une mine de charbon en exploitation** (production > 0,5 Mt/an). **Nouvelles exclusions :** Anglo American (88 % des mines Grosvenor et Moranbah North, charbon métallurgique), Mitsubishi Corp (50 % des mines BMA avec BHP), Mitsui & Co, ITOCHU, Sumitomo Corp, Marubeni, Nippon Steel, JFE | 8 |
+| ⛽ Pétrole et gaz | Tout le secteur GICS Énergie | 52 |
+| 🏭 Électricité carbonée | Un électricien n'est gardé que s'il fait au moins 50 % de chiffre d'affaires vert, ou si ses émissions directes sont inférieures à 100 tCO2e par M$ de chiffre d'affaires (réseaux, eau). *C'est une approximation : la règle officielle est en gCO2/kWh, une donnée absente de notre base.* | 51 |
+| ⚫ Charbon thermique (≥ 1 % du chiffre d'affaires, seuil Paris-Aligned) | Croisement avec la **Global Coal Exit List 2026** (urgewald) : Glencore (3,2 % du CA, 98 Mt/an), BHP (3,2 %), CSX (13 %, transport de charbon), Berkshire Hathaway (1,7 %). Les 26 autres entreprises de la liste étaient déjà exclues. | 4 |
+| ⛏️ Mines de charbon, thermique **et métallurgique** | Croisement avec le **Global Coal Mine Tracker** (Global Energy Monitor, août 2026), mine par mine : on exclut toute entreprise qui détient **au moins 10 % d'une mine en exploitation** (production > 0,5 Mt/an). Anglo American, Mitsubishi Corp, Mitsui & Co, ITOCHU, Sumitomo Corp, Marubeni, Nippon Steel, JFE | 8 |
 
-**Bon à savoir :** South32 n'est **pas** exclue. Le Global Coal Mine Tracker montre qu'elle a **vendu** ses mines de charbon métallurgique d'Illawarra (Appin, Dendrobium), aujourd'hui détenues par d'autres groupes. Nos données MSCI datent de fin 2024, la base de Global Energy Monitor d'août 2026 : croiser plusieurs sources permet d'éviter d'exclure une entreprise qui a déjà changé.
+**Bon à savoir :** South32 n'est **pas** exclue. Elle a **vendu** ses mines de charbon d'Illawarra. Croiser plusieurs sources évite d'exclure une entreprise qui a déjà changé.
 
-### A2. Les controverses *(sévères sur l'environnement, minimum sur le social)*
-
-| Règle | Exclues |
-|---|---|
-| 🔴🟠 Controverse **environnementale** grave : drapeau rouge ou orange (score MSCI ≤ 1). Par exemple Coca-Cola, Nestlé, Volkswagen, Bayer | 28 |
-| 🔴 Controverse **sociale ou de gouvernance** très grave : drapeau rouge seulement (score = 0), notre proxy des violations du Pacte mondial de l'ONU | 2 |
-
-### A3. Le minimum éthique *(obligatoire en Article 9.3)*
+### A2. Le financement des énergies fossiles — 183 exclues
 
 | Règle | Exclues |
 |---|---|
-| Tabac | 5 |
-| Armes controversées | 5 |
+| 🏦 Banques | 74 |
+| 🛡️ Assureurs et courtiers | 64 |
+| 📈 Gestionnaires d'actifs, crédit, capital-investissement, holdings | 45 |
 
-### A4. Les atteintes graves aux autres limites
+**Pourquoi :** une banque ou un assureur pollue peu lui-même, mais **finance, assure ou détient** des entreprises fossiles. En 2025, les 65 plus grandes banques du monde ont financé **906 milliards de dollars** d'énergies fossiles (*Banking on Climate Chaos 2026*). Pourtant, nos données donnent à Goldman Sachs une intensité carbone scope 3 de **0,7 tCO2e par M$** de chiffre d'affaires, contre 494 en médiane pour l'industrie. **MSCI mesure leurs bureaux, pas leurs prêts.**
 
-| Règle | Exclues |
-|---|---|
-| Fortement nuisible à la **biodiversité** : ODD 14 ou 15 ≤ −5 (chimie, plastiques…) | 13 |
-| Fortement nuisible à l'**eau** ou aux **ressources** : ODD 6 ou 12 ≤ −5 | 72 |
+Plutôt que de faire confiance à un chiffre faux, nous les excluons : **on n'investit pas dans ce qu'on ne mesure pas.**
 
-### A5. L'exclusion Jevons : les activités du rebond 🎯
+**Ce qu'on garde :** les **services de paiement, les bourses et les agences de notation** (Visa, Mastercard, PayPal, S&P Global, Deutsche Börse, Nasdaq…). Elles se rémunèrent par commission et ne financent pas d'entreprises.
+
+*Piste d'amélioration : avec une base complète des émissions financées (non disponible gratuitement), on pourrait réintégrer les meilleures banques. Les politiques fossiles des 65 plus grandes banques (Reclaim Finance) sont fournies en données complémentaires.*
+
+### A3. L'effet rebond (Jevons) — 48 exclues 🎯
 
 | Activité | Qui | Exclues |
 |---|---|---|
@@ -110,18 +117,26 @@ On retire d'emblée ce qui est incompatible avec le fonds, avant même de regard
 
 **Pourquoi une liste et pas une donnée :** les notes ESG mesurent l'**efficacité** (émissions par produit), pas le **volume**. Sans cette exclusion, Zara passerait tous nos autres filtres. Nous assumons une limite : presque toute activité crée un peu d'effet rebond. Nous excluons uniquement les activités où il est **le moteur du modèle économique**.
 
-### A6. Les données manquantes
+### A4. Les garde-fous — 58 exclues
 
-| Règle | Exclues |
-|---|---|
-| Pas de note ESG, de température implicite ou de données carbone : on n'investit pas dans ce qu'on ne mesure pas | 14 |
-| **Les entreprises dont le métier est de financer, d'investir ou d'assurer** : banques, assureurs, gestionnaires d'actifs, capital-investissement, holdings. Leur vrai impact, ce qu'elles **financent ou assurent**, n'est pas mesuré dans nos données | 180 |
+| Famille | Règle | Exclues (brut) |
+|---|---|---|
+| 🔴🟠 Controverses environnementales | Drapeau rouge ou orange (score MSCI ≤ 1), par exemple Coca-Cola, Nestlé, Bayer | 28 |
+| 🔴 Controverses sociales ou de gouvernance | Drapeau rouge seulement (score = 0), notre proxy des violations du Pacte mondial de l'ONU *(minimum Article 9)* | 2 |
+| 🚬 Éthique | Tabac (5) et armes controversées (5) *(obligatoire en Article 9.3)* | 10 |
+| 🌿 Atteintes graves aux autres limites | ODD 14 ou 15 ≤ −5 (biodiversité : 13) ; ODD 6 ou 12 ≤ −5 (eau, ressources : 72) | 84 |
+| 🔍 Atteintes à la biodiversité **invisibles dans les données** | **Mines d'or** et leurs financeurs par redevances (Newmont, Barrick, Agnico Eagle, Northern Star, Franco-Nevada, Wheaton Precious Metals) ; **saumon d'élevage en mer** (Mowi, SalMar). Issu de notre revue qualitative, voir ci-dessous | 8 |
+| ❓ Données manquantes | Pas de note ESG, de température implicite ou de données carbone | 14 |
 
-**Pourquoi exclure les financières :** en 2025, les 65 plus grandes banques du monde ont financé **906 milliards de dollars** d'énergies fossiles (*Banking on Climate Chaos 2026*). Pourtant, nos données donnent à Goldman Sachs une intensité carbone scope 3 de **0,7 tCO2e par M$** de chiffre d'affaires, contre 494 pour l'industrie. MSCI mesure leurs bureaux, pas leurs prêts. Les assureurs ont le même angle mort : ce qu'ils assurent et ce qu'ils placent. Plutôt que de faire confiance à un chiffre faux, nous les excluons. C'est la même règle que pour les données manquantes : **on n'investit pas dans ce qu'on ne mesure pas.**
+*Les chiffres « brut » se recoupent avec les familles précédentes : au total, 58 entreprises sont exclues **uniquement** par ces garde-fous.*
 
-**Ce qu'on garde :** les **services de paiement, les bourses et les agences de notation** (Visa, Mastercard, PayPal, S&P Global, Deutsche Börse, Nasdaq…). Elles se rémunèrent par commission et ne financent pas d'entreprises.
+**Notre revue qualitative : « les données proposent, l'analyse vérifie ».** Après le calcul, nous relisons les entreprises les mieux classées. Si l'activité réelle contredit les données, nous **n'excluons pas une entreprise au cas par cas** : nous écrivons une **règle** et l'appliquons à **tout l'univers**. Cette revue a repéré deux activités :
+- **L'or :** il sert surtout aux bijoux et aux lingots, pas à la transition. Son extraction déplace des tonnes de roche pour quelques grammes, utilise du cyanure, et ses bassins de déchets miniers menacent l'eau et les sols. Newmont était pourtant classée 9e : ses bons scores ODD reflètent ses **politiques**, pas son **activité**. Les sociétés de redevances (Franco-Nevada, Wheaton) sont exclues par la même logique que les banques : elles **financent** ces mines.
+- **Le saumon d'élevage en mer :** pollution des fjords, poux de mer transmis aux saumons sauvages, poissons échappés, alimentation à base de soja (déforestation) et de farines de poissons sauvages. Pourtant, MSCI note l'ODD 14 (vie aquatique) de Mowi à **0**.
 
-**→ Résultat de l'étape A : 397 entreprises exclues, 850 investissables.**
+C'est l'*Aggregate Confusion* en pratique : une donnée ESG peut être bonne pendant que l'activité, elle, dégrade une limite planétaire.
+
+**→ Résultat de l'étape A : 404 entreprises exclues, 843 investissables.**
 
 ---
 
@@ -135,17 +150,17 @@ Il suffit d'**une** de ces conditions :
 
 | Porte d'entrée | Condition | Entreprises |
 |---|---|---|
-| 🌡️ Climat | ODD 13 aligné (score ≥ 2) | 295 |
-| ⚡ Énergie propre | ODD 7 aligné (score ≥ 2) | 261 |
-| 💧 Eau | ODD 6 aligné (score ≥ 2) | 138 |
-| ♻️ Ressources | ODD 12 aligné (score ≥ 2) | 227 |
-| ♻️ Solutions vertes | ≥ 20 % du chiffre d'affaires vert (technologies propres ou Taxonomie) | 61 |
+| 🌡️ Climat | ODD 13 aligné (score ≥ 2) | 294 |
+| ⚡ Énergie propre | ODD 7 aligné (score ≥ 2) | 260 |
+| 💧 Eau | ODD 6 aligné (score ≥ 2) | 134 |
+| ♻️ Ressources | ODD 12 aligné (score ≥ 2) | 223 |
+| ♻️ Solutions vertes | ≥ 20 % du chiffre d'affaires vert (technologies propres ou Taxonomie) | 59 |
 
-→ **492 entreprises** contribuent.
+→ **488 entreprises** contribuent.
 
 *Les scores ODD de MSCI vont de −10 à +10 : à partir de 2, l'entreprise est « alignée » ; à −2 ou moins, elle est « désalignée ».*
 
-**Pourquoi la température implicite n'est pas une porte d'entrée :** émettre peu, ce n'est pas contribuer. Avec une porte « température ≤ 1,5 °C », 76 entreprises seraient entrées seulement parce qu'elles polluent peu, surtout des banques et des laboratoires pharmaceutiques, sans rien apporter aux limites planétaires. Dans notre fonds, chaque entreprise a une **vraie contribution** : un ODD environnemental aligné ou du chiffre d'affaires vert.
+**Pourquoi la température implicite n'est pas une porte d'entrée :** émettre peu, ce n'est pas contribuer. Une entreprise qui pollue peu sans rien apporter aux limites planétaires n'entre pas. Dans notre fonds, chaque entreprise a une **vraie contribution** : un ODD environnemental aligné ou du chiffre d'affaires vert.
 
 ### Case 2 — Elle ne nuit pas aux autres limites (DNSH)
 
@@ -154,9 +169,9 @@ Il suffit d'**une** de ces conditions :
 | Aucun ODD environnemental désaligné (ODD 6, 12, 13, 14 ou 15 ≤ −2) | On ne règle pas un problème en en créant un autre |
 | Température implicite ≤ 3 °C | Pas de trajectoire climatique catastrophique |
 
-→ **674 entreprises** passent.
+→ **668 entreprises** passent.
 
-**Pourquoi 3 °C et pas 2 °C :** un seuil à 2 °C exclurait justement des fabricants de solutions, comme EDP Renováveis (éolien et solaire, 2,1 °C), Nibe (pompes à chaleur, 2,5 °C), Novonesis (enzymes, 2,1 °C), Infineon (puces pour le solaire et les réseaux, 3,0 °C), Saint-Gobain (isolation, 2,1 °C) ou Norsk Hydro (aluminium bas carbone, 2,1 °C). Leur température est élevée parce qu'elles **fabriquent et grandissent**, pas parce qu'elles nuisent. La température sert ici de **garde-fou**. L'objectif de Paris est tenu au niveau du **fonds entier** : au moins −50 % d'intensité carbone par rapport à l'univers, puis −7 % par an (vérifié à la pondération). La température sert aussi à départager les entreprises à l'étape suivante.
+**Pourquoi 3 °C et pas 2 °C :** un seuil à 2 °C exclurait justement des fabricants de solutions, comme EDP Renováveis (éolien et solaire, 2,1 °C), Nibe (pompes à chaleur, 2,5 °C), Novonesis (enzymes, 2,1 °C), Infineon (puces pour le solaire et les réseaux, 3,0 °C), Saint-Gobain (isolation, 2,1 °C) ou Norsk Hydro (aluminium bas carbone, 2,1 °C). Leur température est élevée parce qu'elles **fabriquent et grandissent**, pas parce qu'elles nuisent. La température sert ici de **garde-fou**. L'objectif de Paris est tenu au niveau du **fonds entier** : au moins −50 % d'intensité carbone par rapport à l'univers, puis −7 % par an (vérifié à la pondération).
 
 ### Case 3 — Gouvernance minimale
 
@@ -165,9 +180,9 @@ Il suffit d'**une** de ces conditions :
 | Pas de drapeau rouge de gouvernance *(déjà vérifié à l'étape A)* | Minimum réglementaire |
 | Note du pilier gouvernance MSCI ≥ 3/10 | On écarte seulement les gouvernances défaillantes |
 
-→ **843 entreprises** passent. C'est volontairement peu sélectif : la gouvernance n'est pas notre thème.
+→ **836 entreprises** passent. C'est volontairement peu sélectif : la gouvernance n'est pas notre thème.
 
-**→ Résultat de l'étape B : 410 entreprises éligibles à l'Article 9.** La plupart des 440 qui échouent **ne contribuent à aucune limite** (259) ; 80 contribuent mais **nuisent** à une autre ; 95 échouent sur les deux.
+**→ Résultat de l'étape B : 406 entreprises éligibles à l'Article 9.** Sur les 437 qui échouent, la plupart **ne contribuent à aucune limite** (257). 80 contribuent mais **nuisent** à une autre, et 94 échouent sur les deux.
 
 ---
 
@@ -176,10 +191,17 @@ Il suffit d'**une** de ces conditions :
 | | Entreprises |
 |---|---|
 | MSCI World (31/12/2024) | 1 247 |
-| Après les exclusions | 850 |
-| **Périmètre d'investissement (Article 9)** | **410** |
+| − Énergies fossiles | − 115 |
+| − Financement des énergies fossiles | − 183 |
+| − Effet rebond (Jevons) | − 48 |
+| − Garde-fous | − 58 |
+| **= Entreprises investissables** | **843** |
+| − Test Article 9 | − 437 |
+| **= Périmètre d'investissement** | **406** |
 
-Ces **410 entreprises** ont toutes le droit, réglementairement et selon notre thème, d'entrer dans le fonds. Les étapes suivantes choisissent **les meilleures** : sélection extra-financière, filtres financiers, puis pondération.
+**Répartition par secteur :** Industrie 102 · Technologie 89 · Santé 54 · Consommation de base 38 · Immobilier 31 · Consommation discrétionnaire 27 · Communication 21 · Matériaux 16 · Services financiers (paiement, bourses) 14 · Services aux collectivités 14.
+
+Ces **406 entreprises** ont toutes le droit, réglementairement et selon notre thème, d'entrer dans le fonds. Les étapes suivantes choisissent **les meilleures** : sélection extra-financière, filtres financiers, puis pondération.
 
 ---
 
@@ -190,6 +212,6 @@ Ces **410 entreprises** ont toutes le droit, réglementairement et selon notre t
 | Univers, données financières et extra-financières | `all_data.csv` (MSCI, 31/12/2024), fourni par l'enseignant |
 | Charbon thermique | urgewald, *Global Coal Exit List 2026* (`Urgewald GCEL 2026 V1.0.xlsx`) |
 | Mines de charbon (thermique et métallurgique) | Global Energy Monitor, *Global Coal Mine Tracker*, août 2026 (`Global Coal Mine Tracker, August 2026.xlsx`), licence CC BY 4.0 |
-| Financements fossiles des banques (justification de l'exclusion des financières) | *Banking on Climate Chaos 2026* (RAN, BankTrack et al.) ; Reclaim Finance, *Coal Policy Tool* et *Oil and Gas Policy Tracker* (`CoalPolicyTracker.xlsx`, `OilGasPolicyTracker.xlsx`) |
+| Financements fossiles des banques | *Banking on Climate Chaos 2026* (RAN, BankTrack et al.) ; Reclaim Finance, *Coal Policy Tool* et *Oil and Gas Policy Tracker* (`CoalPolicyTracker.xlsx`, `OilGasPolicyTracker.xlsx`) |
 | Règles Paris-Aligned | Règlement délégué (UE) 2020/1818 |
 | Investissement durable | Règlement (UE) 2019/2088 (SFDR), article 2.17 |
