@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+~$*.xlsx
+
+# fichier intermédiaire : contient toutes les données MSCI, recréé par le script 1
+resultats/etape_1_extra_financier.csv
